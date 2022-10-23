@@ -1,0 +1,42 @@
+.Hero{
+    height: 300px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 0 2px 0 black;
+
+}
+li:has(> a.active) { /* styles to apply to the li tag */ }
+
+.character-list {
+    width: 20rem;
+    max-width: 90%;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    border-radius: 5px;
+  }
+  
+  .character-card {
+    min-width: 90%;
+    display: flex;
+  
+    align-items: center;
+    text-align: left;
+    margin: 1rem;
+    border: 1px solid #888;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+  
+  .character-card .character-image {
+    width: 4.5rem;
+    height: 4.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 0.75rem;
+  }
+  
+  .character-card .character-name {
+    font-weight: bold;
+  }
